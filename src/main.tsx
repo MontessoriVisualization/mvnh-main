@@ -158,7 +158,7 @@ const router = createBrowserRouter(
       ),
     },
     {
-      path: "user/profile",
+      path: "/user/profile",
       element: (
         <>
           <Header />
