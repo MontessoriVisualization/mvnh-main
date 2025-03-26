@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
+    "build": "tsc -b && vite build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
@@ -57,7 +57,7 @@
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "Mvnh"
+    "url": "https://github.com/MontessoriVisualization/MVNH.git"
   },
   "author": "",
   "license": "ISC"

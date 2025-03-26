@@ -1,4 +1,3 @@
-// filepath: c:\Users\LENOVO\Pictures\MVNH-main\vite.config.ts
 import path from "path";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
@@ -12,6 +11,7 @@ export default defineConfig({
     },
   },
   build: {
-    chunkSizeWarningLimit: 1000,
+    sourcemap: false,  // disable source maps in production
+
   },
 });
